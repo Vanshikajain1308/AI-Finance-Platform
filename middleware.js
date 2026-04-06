@@ -3,7 +3,7 @@ import arcjet, { createMiddleware, detectBot } from "@arcjet/next";
 
 const isProtectedRoute = createRouteMatcher([
   "/dashboard(.*)",
-  "/account(.*)",
+  "/account/(.*)",
   "/transaction(.*)",
 ]);
 
