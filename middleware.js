@@ -11,7 +11,7 @@ const aj = arcjet({
   key: process.env.ARCJET_KEY,
   rules: [
     detectBot({
-      mode: "LIVE",
+      mode: "DRY_RUN",
       allow: [
         "CATEGORY:SEARCH_ENGINE",
         "GO_HTTP",
